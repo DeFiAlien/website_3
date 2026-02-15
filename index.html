@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Northwind Trade Co. — Products</title>
+  <meta name="description" content="Modern B2B product showcase for global buyers. Transparent specs, fast lead times, and export-ready support." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ color-scheme: light; }
+    .shadow-soft{ box-shadow: 0 20px 60px rgba(15,23,42,0.10); }
+    .badge{ padding: .25rem .5rem; border-radius: 999px; font-size: .75rem; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- Top bar -->
+  <div class="border-b bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="text-sm text-slate-600">Global B2B Supply · MOQ flexible · OEM/ODM</div>
+      <div class="flex gap-4 text-sm">
+        <a class="text-slate-600 hover:text-slate-900" href="#contact">Contact</a>
+        <a class="text-slate-600 hover:text-slate-900" href="#faq">FAQ</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-slate-900 text-white grid place-items-center font-semibold">N</div>
+        <div>
+          <div class="font-semibold">Northwind Trade Co.</div>
+          <div class="text-xs text-slate-500">Reliable export partner since 2012</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="px-4 py-2 rounded-full border border-slate-200 text-sm hover:border-slate-300">Catalog (PDF)</button>
+        <button class="px-4 py-2 rounded-full bg-slate-900 text-white text-sm">Get Quote</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-white to-slate-50">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="badge bg-emerald-50 text-emerald-700 border border-emerald-100">EU & US compliant</span>
+        <h1 class="mt-4 text-4xl md:text-5xl font-semibold tracking-tight">Premium outdoor gear for global retailers</h1>
+        <p class="mt-4 text-slate-600 leading-7">
+          Curated product lines with clear specs, certifications, and lead times. Designed for wholesale buyers and
+          importers who need reliability at scale.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <button class="px-5 py-3 rounded-full bg-slate-900 text-white">Request a Quote</button>
+          <button class="px-5 py-3 rounded-full border border-slate-200">Download Catalog</button>
+        </div>
+        <div class="mt-6 flex gap-6 text-sm text-slate-500">
+          <div><strong class="text-slate-900">30-45d</strong> lead time</div>
+          <div><strong class="text-slate-900">3</strong> regional warehouses</div>
+          <div><strong class="text-slate-900">24/7</strong> after-sales</div>
+        </div>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
+        <div class="text-sm text-slate-500">Featured collection</div>
+        <div class="mt-4 grid gap-4">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="font-medium">SummitPro Jackets</div>
+              <div class="text-sm text-slate-500">Waterproof · Breathable · OEM colors</div>
+            </div>
+            <span class="badge bg-slate-100 text-slate-600">Best Seller</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="font-medium">TrailMaster Boots</div>
+              <div class="text-sm text-slate-500">Vibram sole · EN ISO 20345</div>
+            </div>
+            <span class="badge bg-blue-50 text-blue-700">New</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="font-medium">ArcticShield Gloves</div>
+              <div class="text-sm text-slate-500">-20°C rating · Durable grip</div>
+            </div>
+            <span class="badge bg-amber-50 text-amber-700">Fast Ship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters / trust -->
+  <section class="max-w-6xl mx-auto px-4 mt-8">
+    <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-wrap items-center gap-4">
+      <span class="text-sm text-slate-600">Filter:</span>
+      <button class="px-3 py-1.5 rounded-full border border-slate-200 text-sm">All</button>
+      <button class="px-3 py-1.5 rounded-full border border-slate-200 text-sm">Apparel</button>
+      <button class="px-3 py-1.5 rounded-full border border-slate-200 text-sm">Footwear</button>
+      <button class="px-3 py-1.5 rounded-full border border-slate-200 text-sm">Accessories</button>
+      <div class="ml-auto flex items-center gap-2 text-sm text-slate-500">
+        <span>Certifications:</span>
+        <span class="badge bg-slate-100 text-slate-600">CE</span>
+        <span class="badge bg-slate-100 text-slate-600">REACH</span>
+        <span class="badge bg-slate-100 text-slate-600">RoHS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Card -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-5 shadow-soft">
+        <div class="h-40 bg-slate-100 rounded-xl mb-4 grid place-items-center text-slate-400">Product image</div>
+        <h3 class="font-semibold">SummitPro Shell Jacket</h3>
+        <p class="mt-2 text-sm text-slate-600">3-layer waterproof fabric, taped seams, 10k/10k rating.</p>
+        <ul class="mt-3 text-sm text-slate-600 space-y-1">
+          <li>MOQ: 300 pcs</li>
+          <li>Lead time: 35 days</li>
+          <li>Colors: 8 standard, OEM</li>
+        </ul>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="badge bg-emerald-50 text-emerald-700">In stock</span>
+          <button class="text-sm px-3 py-1.5 rounded-full border border-slate-200">Request price</button>
+        </div>
+      </article>
+
+      <article class="bg-white border border-slate-200 rounded-2xl p-5 shadow-soft">
+        <div class="h-40 bg-slate-100 rounded-xl mb-4 grid place-items-center text-slate-400">Product image</div>
+        <h3 class="font-semibold">TrailMaster Safety Boots</h3>
+        <p class="mt-2 text-sm text-slate-600">Composite toe, slip-resistant outsole, oil & puncture resistant.</p>
+        <ul class="mt-3 text-sm text-slate-600 space-y-1">
+          <li>MOQ: 200 pairs</li>
+          <li>Lead time: 30 days</li>
+          <li>Sizes: EU 38-47</li>
+        </ul>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="badge bg-blue-50 text-blue-700">New</span>
+          <button class="text-sm px-3 py-1.5 rounded-full border border-slate-200">Request price</button>
+        </div>
+      </article>
+
+      <article class="bg-white border border-slate-200 rounded-2xl p-5 shadow-soft">
+        <div class="h-40 bg-slate-100 rounded-xl mb-4 grid place-items-center text-slate-400">Product image</div>
+        <h3 class="font-semibold">ArcticShield Thermal Gloves</h3>
+        <p class="mt-2 text-sm text-slate-600">-20°C rated, reinforced palm, touchscreen compatible.</p>
+        <ul class="mt-3 text-sm text-slate-600 space-y-1">
+          <li>MOQ: 500 pairs</li>
+          <li>Lead time: 28 days</li>
+          <li>Packaging: retail-ready</li>
+        </ul>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="badge bg-amber-50 text-amber-700">Fast ship</span>
+          <button class="text-sm px-3 py-1.5 rounded-full border border-slate-200">Request price</button>
+        </div>
+      </article>
+
+      <article class="bg-white border border-slate-200 rounded-2xl p-5 shadow-soft">
+        <div class="h-40 bg-slate-100 rounded-xl mb-4 grid place-items-center text-slate-400">Product image</div>
+        <h3 class="font-semibold">EverDry Hiking Pants</h3>
+        <p class="mt-2 text-sm text-slate-600">Quick-dry, 4-way stretch, anti-abrasion finish.</p>
+        <ul class="mt-3 text-sm text-slate-600 space-y-1">
+          <li>MOQ: 400 pcs</li>
+          <li>Lead time: 32 days</li>
+          <li>Fabrics: 3 options</li>
+        </ul>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="badge bg-slate-100 text-slate-600">Stable</span>
+          <button class="text-sm px-3 py-1.5 rounded-full border border-slate-200">Request price</button>
+        </div>
+      </article>
+
+      <article class="bg-white border border-slate-200 rounded-2xl p-5 shadow-soft">
+        <div class="h-40 bg-slate-100 rounded-xl mb-4 grid place-items-center text-slate-400">Product image</div>
+        <h3 class="font-semibold">NordicLite Down Vest</h3>
+        <p class="mt-2 text-sm text-slate-600">RDS certified down, ultralight, packable.</p>
+        <ul class="mt-3 text-sm text-slate-600 space-y-1">
+          <li>MOQ: 250 pcs</li>
+          <li>Lead time: 30 days</li>
+          <li>Colors: 6 standard</li>
+        </ul>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="badge bg-emerald-50 text-emerald-700">In stock</span>
+          <button class="text-sm px-3 py-1.5 rounded-full border border-slate-200">Request price</button>
+        </div>
+      </article>
+
+      <article class="bg-white border border-slate-200 rounded-2xl p-5 shadow-soft">
+        <div class="h-40 bg-slate-100 rounded-xl mb-4 grid place-items-center text-slate-400">Product image</div>
+        <h3 class="font-semibold">StormSeal Duffel 60L</h3>
+        <p class="mt-2 text-sm text-slate-600">Water-resistant, welded seams, heavy-duty straps.</p>
+        <ul class="mt-3 text-sm text-slate-600 space-y-1">
+          <li>MOQ: 150 pcs</li>
+          <li>Lead time: 26 days</li>
+          <li>Branding: heat transfer</li>
+        </ul>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="badge bg-blue-50 text-blue-700">New</span>
+          <button class="text-sm px-3 py-1.5 rounded-full border border-slate-200">Request price</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Value props -->
+  <section class="max-w-6xl mx-auto px-4 pb-10">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <h4 class="font-semibold">Quality control</h4>
+        <p class="mt-2 text-sm text-slate-600">AQL 1.5/2.5, full inspection reports, pre-shipment samples.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <h4 class="font-semibold">Flexible logistics</h4>
+        <p class="mt-2 text-sm text-slate-600">FOB, CIF, DDP available. Dedicated account manager for each region.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <h4 class="font-semibold">Compliance</h4>
+        <p class="mt-2 text-sm text-slate-600">CE, REACH, RoHS. Full material safety and test certificates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 pb-16">
+    <div class="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-soft">
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold">Tell us your requirements</h3>
+          <p class="mt-2 text-slate-600">Share target price, quantity, and delivery window. We respond within 24 hours.</p>
+        </div>
+        <div class="flex flex-wrap gap-3 justify-end">
+          <button class="px-5 py-3 rounded-full bg-slate-900 text-white">Email Sales</button>
+          <button class="px-5 py-3 rounded-full border border-slate-200">Schedule a call</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="max-w-6xl mx-auto px-4 pb-16">
+    <h3 class="text-xl font-semibold">FAQ</h3>
+    <div class="mt-4 grid md:grid-cols-2 gap-6">
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <div class="font-medium">Can you support OEM branding?</div>
+        <p class="mt-2 text-sm text-slate-600">Yes. We support labels, color customization, and packaging design.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <div class="font-medium">What is your typical lead time?</div>
+        <p class="mt-2 text-sm text-slate-600">30–45 days depending on SKU. Rush orders available for select products.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <div class="font-medium">Do you have compliance certificates?</div>
+        <p class="mt-2 text-sm text-slate-600">We provide CE/REACH/RoHS and lab test reports on request.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <div class="font-medium">What are your payment terms?</div>
+        <p class="mt-2 text-sm text-slate-600">T/T, L/C for large orders, and milestone payments for custom development.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-slate-500 flex flex-wrap items-center justify-between">
+      <div>© 2026 Northwind Trade Co.</div>
+      <div>Export-ready · Dedicated account manager · 24/7 support</div>
+    </div>
+  </footer>
+</body>
+</html>
